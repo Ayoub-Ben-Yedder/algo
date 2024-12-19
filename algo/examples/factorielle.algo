@@ -1,0 +1,14 @@
+Algorithme factorielle
+TDO
+n : entier;
+fact : entier;
+Debut
+	n <- 4;
+	ecrire(n,"! = ");
+	fact <- 1;
+	tantque n>0 faire
+		fact <- fact * n;
+		n <- n - 1;
+	fintantque
+	ecrire(fact);
+Fin

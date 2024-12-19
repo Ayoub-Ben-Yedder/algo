@@ -1,0 +1,24 @@
+Algorithme moyenne
+TDO
+c : reel;
+s : reel;
+moy : reel;
+Debut
+	c <- 15;
+	s <- 20;
+	moy <- (c+s*2)/3;
+	ecrire("note controle=",c,"note synthese=",s,"moyenne=",moy);
+	si moy < 10 alors
+		ecrire("mauvais!");
+	sinon
+		si moy < 15 alors
+			ecrire("moyen");
+		sinon
+			si moy < 19 alors
+				ecrire("tres bien!");
+			sinon
+				ecrire("excellent!!");
+			finsi
+		finsi
+	finsi
+Fin

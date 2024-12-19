@@ -1,0 +1,153 @@
+[LEXER] at line 1, TokenType:ALGO Algorithme
+[LEXER] at line 1, TokenType:IDENTIFIER Premier
+[LEXER] at line 2, TokenType:TDO TDO
+[LEXER] at line 3, TokenType:IDENTIFIER x
+[LEXER] at line 3, TokenType:COLON :
+[LEXER] at line 3, TokenType:ENTIER entier
+[LEXER] at line 3, TokenType:SEMICOLON ;
+[LEXER] at line 4, TokenType:IDENTIFIER d
+[LEXER] at line 4, TokenType:COLON :
+[LEXER] at line 4, TokenType:ENTIER entier
+[LEXER] at line 4, TokenType:SEMICOLON ;
+[LEXER] at line 6, TokenType:BEGIN Debut
+[LEXER] at line 7, TokenType:IDENTIFIER x
+[LEXER] at line 7, TokenType:LESS_MINUS <-
+[LEXER] at line 7, TokenType:ENTIER_NUMBER 7
+[LEXER] at line 7, TokenType:SEMICOLON ;
+[LEXER] at line 8, TokenType:IDENTIFIER d
+[LEXER] at line 8, TokenType:LESS_MINUS <-
+[LEXER] at line 8, TokenType:ENTIER_NUMBER 2
+[LEXER] at line 8, TokenType:SEMICOLON ;
+[LEXER] at line 9, TokenType:WHILE tantque
+[LEXER] at line 9, TokenType:IDENTIFIER x
+[LEXER] at line 9, TokenType:MOD mod
+[LEXER] at line 9, TokenType:IDENTIFIER d
+[LEXER] at line 9, TokenType:BANG_EQUAL !=
+[LEXER] at line 9, TokenType:ENTIER_NUMBER 0
+[LEXER] at line 9, TokenType:AND et
+[LEXER] at line 9, TokenType:IDENTIFIER d
+[LEXER] at line 9, TokenType:LESS <
+[LEXER] at line 9, TokenType:IDENTIFIER x
+[LEXER] at line 9, TokenType:DIV div
+[LEXER] at line 9, TokenType:ENTIER_NUMBER 2
+[LEXER] at line 9, TokenType:DO faire
+[LEXER] at line 10, TokenType:IDENTIFIER d
+[LEXER] at line 10, TokenType:LESS_MINUS <-
+[LEXER] at line 10, TokenType:IDENTIFIER d
+[LEXER] at line 10, TokenType:PLUS +
+[LEXER] at line 10, TokenType:ENTIER_NUMBER 1
+[LEXER] at line 10, TokenType:SEMICOLON ;
+[LEXER] at line 11, TokenType:END_WHILE fintantque
+[LEXER] at line 12, TokenType:IF si
+[LEXER] at line 12, TokenType:IDENTIFIER x
+[LEXER] at line 12, TokenType:MOD mod
+[LEXER] at line 12, TokenType:IDENTIFIER d
+[LEXER] at line 12, TokenType:BANG_EQUAL !=
+[LEXER] at line 12, TokenType:ENTIER_NUMBER 0
+[LEXER] at line 12, TokenType:OR ou
+[LEXER] at line 12, TokenType:IDENTIFIER x
+[LEXER] at line 12, TokenType:EQUAL =
+[LEXER] at line 12, TokenType:ENTIER_NUMBER 2
+[LEXER] at line 12, TokenType:THEN alors
+[LEXER] at line 13, TokenType:PRINT ecrire
+[LEXER] at line 13, TokenType:LEFT_PAREN (
+[LEXER] at line 13, TokenType:STRING "le nombre"
+[LEXER] at line 13, TokenType:COMMA ,
+[LEXER] at line 13, TokenType:IDENTIFIER x
+[LEXER] at line 13, TokenType:COMMA ,
+[LEXER] at line 13, TokenType:STRING "est premier!"
+[LEXER] at line 13, TokenType:RIGHT_PAREN )
+[LEXER] at line 13, TokenType:SEMICOLON ;
+[LEXER] at line 14, TokenType:ELSE sinon
+[LEXER] at line 15, TokenType:PRINT ecrire
+[LEXER] at line 15, TokenType:LEFT_PAREN (
+[LEXER] at line 15, TokenType:STRING "le nombre"
+[LEXER] at line 15, TokenType:COMMA ,
+[LEXER] at line 15, TokenType:IDENTIFIER x
+[LEXER] at line 15, TokenType:COMMA ,
+[LEXER] at line 15, TokenType:STRING "n'est pas premier!"
+[LEXER] at line 15, TokenType:RIGHT_PAREN )
+[LEXER] at line 15, TokenType:SEMICOLON ;
+[LEXER] at line 16, TokenType:END_IF finsi
+[LEXER] at line 17, TokenType:END Fin
+[INTERPRETER] Consuming: ALGO Algorithme
+[INTERPRETER] Consuming: IDENTIFIER Premier
+[INTERPRETER] Consuming: TDO TDO
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Declaring : x
+[INTERPRETER] Consuming: COLON :
+[INTERPRETER] Matching : ENTIER entier
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Declaring : d
+[INTERPRETER] Consuming: COLON :
+[INTERPRETER] Matching : ENTIER entier
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Consuming: BEGIN Debut
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Consuming: LESS_MINUS <-
+[INTERPRETER] Matching : ENTIER_NUMBER 7
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Consuming: LESS_MINUS <-
+[INTERPRETER] Matching : ENTIER_NUMBER 2
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Matching : WHILE tantque
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : MOD mod
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : BANG_EQUAL !=
+[INTERPRETER] Matching : ENTIER_NUMBER 0
+[INTERPRETER] Matching : AND et
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : LESS <
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : DIV div
+[INTERPRETER] Matching : ENTIER_NUMBER 2
+[INTERPRETER] Consuming: DO faire
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Consuming: LESS_MINUS <-
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : PLUS +
+[INTERPRETER] Matching : ENTIER_NUMBER 1
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Matching : END_WHILE fintantque
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : MOD mod
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : BANG_EQUAL !=
+[INTERPRETER] Matching : ENTIER_NUMBER 0
+[INTERPRETER] Matching : AND et
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : LESS <
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : DIV div
+[INTERPRETER] Matching : ENTIER_NUMBER 2
+[INTERPRETER] Consuming: DO faire
+[INTERPRETER] Matching : END_WHILE fintantque
+[INTERPRETER] Matching : IF si
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : MOD mod
+[INTERPRETER] Matching : IDENTIFIER d
+[INTERPRETER] Matching : BANG_EQUAL !=
+[INTERPRETER] Matching : ENTIER_NUMBER 0
+[INTERPRETER] Matching : OR ou
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Matching : EQUAL =
+[INTERPRETER] Matching : ENTIER_NUMBER 2
+[INTERPRETER] Consuming: THEN alors
+[INTERPRETER] Matching : PRINT ecrire
+[INTERPRETER] Consuming: LEFT_PAREN (
+[INTERPRETER] Matching : STRING le nombre
+[INTERPRETER] Consuming: COMMA ,
+[INTERPRETER] Matching : IDENTIFIER x
+[INTERPRETER] Consuming: COMMA ,
+[INTERPRETER] Matching : STRING est premier!
+[INTERPRETER] Matching : RIGHT_PAREN )
+[INTERPRETER] Consuming: SEMICOLON ;
+[INTERPRETER] Chekcing : ELSE sinon
+[INTERPRETER] Matching : ELSE sinon
+[INTERPRETER] Chekcing : END_IF finsi
+[INTERPRETER] Consuming: END_IF finsi
+[INTERPRETER] Chekcing : END Fin
+[INTERPRETER] Consuming: END Fin

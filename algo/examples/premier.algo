@@ -1,0 +1,17 @@
+Algorithme Premier
+TDO
+x : entier;
+d : entier;
+
+Debut
+	x <- 7;
+	d <- 2;
+	tantque x mod d != 0 et d<x div 2 faire
+		d <- d + 1;
+	fintantque
+	si x mod d != 0 ou x = 2 alors
+		ecrire("le nombre",x,"est premier!");
+	sinon
+		ecrire("le nombre",x,"n'est pas premier!");
+	finsi
+Fin

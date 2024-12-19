@@ -1,0 +1,86 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "algo lang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#builtinFunctions"
+		},
+		{
+			"include": "#booleans"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.algo",
+					"match": "\\b(si|tantque|fintantque|Debut|Fin|Algorithme|sinon|finsi|reel|entier|chaine|char|TDO|faire|alors)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.algo",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.algo",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.algo",
+					"match": "\\b\\d+(\\.\\d+)?\\b"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [
+				{
+					"name": "keyword.operator.comparison.algo",
+					"match": "(<=|>=|<|>|!=|=)"
+				},
+				{
+					"name": "keyword.operator.assignment.algo",
+					"match": "(<-)"
+				},
+				{
+					"name": "keyword.operator.arithmetic.algo",
+					"match": "(\\+|\\-|\\*|\\/|div|mod)"
+				}
+			]
+		},
+		"builtinFunctions": {
+			"patterns": [
+				{
+					"name": "support.function.builtin.algo",
+					"match": "\\b(ecrire|lire)\\b"
+				}
+			]
+		},
+		"booleans": {
+			"patterns": [
+				{
+					"name": "constant.language.boolean.algo",
+					"match": "\\b(vrai|faux)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.algo"
+}
